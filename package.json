@@ -9,7 +9,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack",
     "start": "NODE_ENV=production webpack serve",
-    "heroku-prebuild": "npm install --dev"
+    "heroku-prebuild": "npm install -D webpack-cli"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 const path = require('path');
-const paths = require('./paths');
+const paths = require('paths');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -51,7 +51,7 @@ module.exports = {
         exclude: /node_modules/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
         test: /\.s[ac]ss$/i,
-        include: path.appSrc,
+        include: paths.appSrc,
         loaders: [
           require.resolve('style-loader'),
           require.resolve('css-loader'),

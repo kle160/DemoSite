@@ -1,1 +1,1 @@
-web: NODE_ENV=development nodemon server/server.js & NODE_ENV=development webpack serve --open
+web: npm run dev

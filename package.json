@@ -7,9 +7,8 @@
     "node": ">=12"
 },
   "scripts": {
-    "start": "nodemon server/server.js",
     "build": "NODE_ENV=production webpack",
-    "dev": "NODE_ENV=development nodemon server/server.js & NODE_ENV=development webpack serve --open "
+    "dev": "NODE_ENV=development webpack serve --open "
   },
   "repository": {
     "type": "git",

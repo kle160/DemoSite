@@ -1,1 +1,1 @@
-web:node ./index.js
+web: NODE_ENV=development nodemon server/server.js & NODE_ENV=development webpack serve --open

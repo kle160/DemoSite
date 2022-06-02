@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Project",
   "main": "index.js",
+  "engines": {
+    "node": ">=12"
+},
   "scripts": {
     "start": "nodemon server/server.js",
     "build": "NODE_ENV=production webpack",

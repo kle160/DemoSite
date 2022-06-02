@@ -50,7 +50,6 @@ module.exports = {
         exclude: /node_modules/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
         test: /\.s[ac]ss$/i,
-        include: paths.appSrc,
         loaders: [
           require.resolve('style-loader'),
           require.resolve('css-loader'),
